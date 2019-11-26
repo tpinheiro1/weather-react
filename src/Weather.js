@@ -27,7 +27,6 @@ export default function Weather() {
     return (
       <form className="Search">
         <input type="search" className="form-control" />
-
         <input
           type="submit"
           value="Search"
