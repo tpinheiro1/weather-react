@@ -6,9 +6,9 @@ import City from "./City";
 import Details from "./Details";
 import Temperature from "./Temperature";
 import Search from "./Search";
-import "bootstrap/dist/css/bootstrap.min.css";
+import “bootstrap/dist/css/bootstrap.min.css”;
 
-import "./styles.css";
+import "./index.css";
 
 function App() {
   return (
