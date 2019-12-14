@@ -19,6 +19,19 @@ function App() {
   );
 }
 
+function Opensource() {
+  return (
+    <div>
+      <small>
+        <a href="https://github.com/tpinheiro1/weather-project" target="_blank">
+          Open-source code
+        </a>
+        , by Teresa Pinheiro
+      </small>
+    </div>
+  );
+}
+
 ReactDOM.render(<App />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
