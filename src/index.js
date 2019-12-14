@@ -15,13 +15,6 @@ function App() {
       <Details />
       <Temperature />
       <Search />
-    </div>
-  );
-}
-
-function Opensource() {
-  return (
-    <div>
       <small>
         <a href="https://github.com/tpinheiro1/weather-project" target="_blank">
           Open-source code
