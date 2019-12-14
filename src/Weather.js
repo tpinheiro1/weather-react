@@ -1,4 +1,5 @@
 import React from "react";
+import "./Weather.css";
 
 export default function Weather() {
   return (
@@ -18,6 +19,10 @@ export default function Weather() {
           <ul>
             <li>Friday 20:30</li>
             <li>Clear Sky</li>
+            <li>
+              <span className="temperature">16</span>
+              <span className="unit">ºC</span>
+            </li>
           </ul>
         </div>
         <div className="col-6">
@@ -35,6 +40,7 @@ export default function Weather() {
               type="search"
               placeholder="Type a city..."
               className="form-control"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">

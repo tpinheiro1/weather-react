@@ -7,11 +7,11 @@
   border: solid 1px #5c94bd;
   border-radius: 20px;
   padding: 30px;
-  margin: 10px;
+  margin: 10px auto;
   max-width: 500px;
 }
 
-.App small {
-  margin: 0px;
-  padding: 20px;
+.App p {
+  font-size: 10px;
+  text-align: center;
 }

@@ -1,0 +1,30 @@
+.Weather h1 {
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.Weather img {
+  margin-left: 20px;
+  font-size: 50px;
+  margin-top: -15px;
+}
+
+.Weather ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Weather li {
+  font-size: 16px;
+  list-style: none;
+  padding: 0px;
+}
+
+.Weather .temperature {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.Weather form {
+  margin-top: 20px;
+}
