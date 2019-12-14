@@ -7,17 +7,17 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather />
-        <small>
-          <a
-            href="https://github.com/tpinheiro1/weather-react"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Open-source code
-          </a>
-          , by Teresa Pinheiro
-        </small>
       </div>
+      <small>
+        <a
+          href="https://github.com/tpinheiro1/weather-react"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open-source code
+        </a>
+        , by Teresa Pinheiro
+      </small>
     </div>
   );
 }
